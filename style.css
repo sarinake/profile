@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@900&display=swap');
+
+body {
+  background-color: #F5F8FB;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+}
+
+.icon-grey {
+  color: grey;
+}
+
+a:hover {
+  background-color: black;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  margin: 12px 0;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn-purple {
+  text-decoration: none;
+  background-color: #6B72E1;
+  color: white;
+
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.text-margin {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
